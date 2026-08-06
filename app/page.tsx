@@ -186,7 +186,7 @@ export default function Home() {
         <div className="section-shell hero-layout">
           <div className="hero-copy">
             <div className="eyebrow light">
-              <span className="status-dot" /> Based in Bogor, Indonesia
+              <span className="status-dot" /> Based in Bogor & Jakarta, Indonesia
             </div>
             <h1>
               Securing access.
@@ -194,7 +194,7 @@ export default function Home() {
             </h1>
             <p className="hero-lead">
               I&apos;m <strong>Muhammad Rico Fedryan</strong>, a Security &amp;
-              Support Engineer focused on privileged access, endpoint security,
+              Support Engineer focused on privileged access, endpoint security, patch management,
               vulnerability management, and infrastructure operations.
             </p>
             <div className="hero-actions">
@@ -544,7 +544,7 @@ export default function Home() {
               <ArrowIcon />
             </a>
             <div className="contact-secondary">
-              <a href="tel:+62851156349459">
+              <a href="tel:+6285156349459">
                 <span>Phone</span>
                 <strong>0851156349459</strong>
               </a>
@@ -567,10 +567,10 @@ export default function Home() {
             <span className="brand-mark">MR</span>
             <span className="brand-copy">
               <strong>Muhammad Rico Fedryan</strong>
-              <small>Security Engineer / Support Engineer</small>
+              <small>Security Engineer</small>
             </span>
           </a>
-          <p>Built with care in Bogor, Indonesia.</p>
+          <p>Built with a passion for technology and security.</p>
           <div>
             <a href="#top">Back to top ↑</a>
           </div>
