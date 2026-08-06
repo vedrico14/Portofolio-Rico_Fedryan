@@ -193,8 +193,8 @@ export default function Home() {
               <span>Keeping systems reliable.</span>
             </h1>
             <p className="hero-lead">
-              I&apos;m <strong>Muhammad Rico Fedryan</strong>, a Security &amp;
-              Support Engineer focused on privileged access, endpoint security, patch management,
+              I&apos;m <strong>Muhammad Rico Fedryan</strong>, a Security 
+              Engineer focused on privileged access, endpoint security, patch management,
               vulnerability management, and infrastructure operations.
             </p>
             <div className="hero-actions">
@@ -237,13 +237,14 @@ export default function Home() {
               </p>
               <p>
                 <span className="code-key">role:</span>
-                <span className="code-value"> &quot;Security / Support Engineer&quot;</span>
+                <span className="code-value"> &quot;Security Engineer&quot;</span>
               </p>
               <p>
                 <span className="code-key">focus:</span>
               </p>
               <ul>
                 <li>&quot;privileged_access&quot;</li>
+                <li>&quot;patch management&quot;</li>
                 <li>&quot;endpoint_security&quot;</li>
                 <li>&quot;vulnerability_management&quot;</li>
                 <li>&quot;infrastructure_operations&quot;</li>
