@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Muhammad Rico Fedryan | Security & Support Engineer",
+  title: "Muhammad Rico Fedryan | Security Engineer",
   description:
-    "Portfolio Muhammad Rico Fedryan, Security Engineer dan Support Engineer dengan pengalaman di privileged access, endpoint security, vulnerability management, dan infrastructure operations.",
+    "Portofolio Muhammad Rico Fedryan, Security Engineer dengan pengalaman di privileged access, endpoint security, vulnerability management, dan infrastructure operations.",
   keywords: [
     "Muhammad Rico Fedryan",
     "Security Engineer",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Muhammad Rico Fedryan" }],
   creator: "Muhammad Rico Fedryan",
   openGraph: {
-    title: "Muhammad Rico Fedryan | Security & Support Engineer",
+    title: "Muhammad Rico Fedryan | Security Engineer",
     description:
       "Security engineering, privileged access management, endpoint security, and infrastructure operations.",
     type: "website",
