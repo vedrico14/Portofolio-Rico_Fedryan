@@ -267,7 +267,6 @@ export default function Home() {
           </div>
           </div>
 
-<div className="section-shell stats-bar">
            
         <div className="section-shell stats-bar">
           <div>
