@@ -1688,3 +1688,12 @@ footer {
 .panel-badge {
   display: none;
 }
+
+.education-panel {
+  display: none;
+}
+
+.credentials-grid {
+  grid-template-columns: 1fr;
+  gap: 0;
+}
