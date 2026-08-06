@@ -268,6 +268,20 @@ summary {
   border-radius: 50%;
   background: var(--mint);
   box-shadow: 0 0 0 5px rgba(89, 226, 194, 0.12);
+  animation: status-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes status-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 0 5px rgba(89, 226, 194, 0.15);
+  }
+
+  50% {
+    opacity: 0.35;
+    box-shadow: 0 0 0 10px rgba(89, 226, 194, 0);
+  }
 }
 
 .hero h1 {
