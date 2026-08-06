@@ -1063,13 +1063,19 @@ summary {
   transition:
     border-color 180ms ease,
     background 180ms ease,
+    color 180ms ease,
     transform 180ms ease;
 }
 
 .tool-list > div:hover {
   border-color: var(--mint);
-  background: #172b38;
+  background: var(--mint);
+  color: var(--navy);
   transform: translateY(-2px);
+}
+
+.tool-list > div:hover .tool-dot {
+  background: var(--navy);
 }
 
 .tool-dot {
@@ -1078,6 +1084,7 @@ summary {
   height: 6px;
   border-radius: 50%;
   background: var(--blue);
+  transition: background 180ms ease;
 }
 
 .soft-skill-list {
