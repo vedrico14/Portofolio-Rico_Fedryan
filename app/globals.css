@@ -616,7 +616,7 @@ summary {
 .contact-layout h2 {
   max-width: 760px;
   margin: 18px 0 0;
-  font-size: clamp(39px, 5vw, 64px);
+  font-size: clamp(37px, 4vw, 62px);
   font-weight: 600;
   letter-spacing: -0.045em;
   line-height: 1.05;
