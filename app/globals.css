@@ -1628,3 +1628,7 @@ footer {
     transition-duration: 0.01ms !important;
   }
 }
+
+.panel-badge {
+  display: none;
+}
