@@ -1,11 +1,11 @@
 :root {
   --font-geist-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  --ink: #f1f5f7;
-  --ink-soft: #d3dde2;
-  --paper: #101b24;
-  --paper-bright: #162630;
-  --muted: #9eafb8;
-  --line: #2b3e49;
+  --ink: #071724;
+  --ink-soft: #183141;
+  --paper: #d9e0e4;
+  --paper-bright: #e7ecef;
+  --muted: #526773;
+  --line: #aebbc2;
   --blue: #718cff;
   --blue-deep: #4968f4;
   --mint: #59e2c2;
