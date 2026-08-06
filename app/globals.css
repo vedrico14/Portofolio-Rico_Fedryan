@@ -1717,3 +1717,7 @@ a[href="#experience"],
 #experience {
   display: none;
 }
+
+.certificate-check {
+  display: none;
+}
