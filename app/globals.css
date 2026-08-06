@@ -2,10 +2,10 @@
   --font-geist-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   --ink: #071724;
   --ink-soft: #183141;
-  --paper: #d9e0e4;
-  --paper-bright: #e7ecef;
-  --muted: #526773;
-  --line: #aebbc2;
+  --paper: #89969d;
+  --paper-bright: #98a4aa;
+  --muted: #314a56;
+  --line: #667882;
   --blue: #718cff;
   --blue-deep: #4968f4;
   --mint: #59e2c2;
@@ -565,20 +565,25 @@ summary {
   overflow: hidden;
   border-right: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.44);
+  background: var(--paper-bright);
   transition: transform 220ms ease, background 220ms ease, box-shadow 220ms ease;
+}
+
+.expertise-card.featured-card {
+  background: var(--paper-bright);
+  color: var(--ink);
 }
 
 .expertise-card:hover {
   z-index: 2;
-  background: #fff;
-  box-shadow: 0 25px 60px rgba(31, 59, 72, 0.1);
+  background: #7f8c93;
+  color: var(--ink);
+  box-shadow: 0 25px 60px rgba(7, 23, 36, 0.2);
   transform: translateY(-5px);
 }
 
-.expertise-card.featured-card {
-  background: var(--navy);
-  color: #fff;
+.expertise-card.featured-card p {
+  color: var(--muted);
 }
 
 .card-index {
@@ -948,7 +953,7 @@ summary {
 }
 
 .credentials-section {
-  background: #fff;
+  background: var(--paper);
 }
 
 .credentials-section .split-heading {
