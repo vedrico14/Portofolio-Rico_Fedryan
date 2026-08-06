@@ -220,6 +220,13 @@ export default function Home() {
               >
                 Credly <ArrowIcon />
               </a>
+              <a
+                href="https://tryhackme.com/p/Vedric"
+                target="_blank"
+                rel="noreferrer"
+              >
+                TryHackMe <ArrowIcon />
+              </a>
             </div>
           </div>
 
