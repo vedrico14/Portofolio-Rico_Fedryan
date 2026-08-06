@@ -551,7 +551,7 @@ summary {
 .stats-bar {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid rgba(255, 255, 255, 0.11);
 }
 
@@ -569,6 +569,14 @@ summary {
 }
 
 .stats-bar > div:last-child {
+  border-right: 0;
+}
+
+.stats-bar > div:nth-child(4) {
+  display: none;
+}
+
+.stats-bar > div:nth-child(3) {
   border-right: 0;
 }
 
@@ -1703,4 +1711,9 @@ footer {
 .credentials-grid {
   grid-template-columns: 1fr;
   gap: 0;
+}
+
+a[href="#experience"],
+#experience {
+  display: none;
 }
