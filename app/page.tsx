@@ -254,16 +254,7 @@ export default function Home() {
                 <span className="code-value"> &quot;analyze. solve. improve.&quot;</span>
               </p>
             </div>
-            <div className="panel-badge">
-              <span className="shield">✓</span>
-              <div>
-                <strong>CyberArk Certified</strong>
-                <small>Certified Trustee</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
+           
         <div className="section-shell stats-bar">
           <div>
             <strong>6+</strong>
@@ -547,7 +538,7 @@ export default function Home() {
             <div className="contact-secondary">
               <a href="tel:+6285156349459">
                 <span>Phone</span>
-                <strong>0851156349459</strong>
+                <strong>085156349459</strong>
               </a>
               <a
                 href="https://linkedin.com/in/ricofedryan14"
