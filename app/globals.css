@@ -744,6 +744,21 @@ summary {
   color: var(--ink-soft);
 }
 
+.card-tags span {
+  transition:
+    border-color 180ms ease,
+    background 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.card-tags span:hover {
+  border-color: var(--mint);
+  background: var(--mint);
+  color: var(--navy);
+  transform: translateY(-2px);
+}
+
 .projects-section {
   background: var(--navy);
   color: #fff;
@@ -772,11 +787,14 @@ summary {
 }
 
 .project-number {
-  align-self: start;
-  padding-top: 40px;
+  align-self: center;
+  width: 100%;
+  padding-top: 0;
   color: var(--mint);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 12px;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
 }
 
 .project-title > span {
@@ -789,7 +807,7 @@ summary {
 
 .project-title h3 {
   margin: 9px 0 9px;
-  font-size: 27px;
+  font-size: 26px;
   font-weight: 550;
   letter-spacing: -0.025em;
 }
@@ -810,7 +828,7 @@ summary {
 .project-tags {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 7px;
 }
 
@@ -818,6 +836,18 @@ summary {
   border-color: var(--mint);
   color: #a7bbc4;
   font-size: 11px;
+  transition:
+    border-color 180ms ease,
+    background 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.project-tags span:hover {
+  border-color: var(--mint);
+  background: var(--mint);
+  color: var(--navy);
+  transform: translateY(-2px);
 }
 
 .experience-layout {
@@ -997,6 +1027,18 @@ summary {
   border-color: var(--line);
   color: var(--ink-soft);
   font-size: 11px;
+  transition:
+    border-color 180ms ease,
+    background 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.skill-cloud span:hover {
+  border-color: var(--mint);
+  background: var(--mint);
+  color: var(--navy);
+  transform: translateY(-2px);
 }
 
 .tool-list {
