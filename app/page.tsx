@@ -518,7 +518,7 @@ export default function Home() {
               <div className="education-quote">
                 <span>“</span>
                 <p>
-                  Always learning something new—especially when technology
+                  Always learning something new, especially when technology
                   presents a problem worth solving.
                 </p>
               </div>
