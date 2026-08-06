@@ -365,7 +365,7 @@ export default function Home() {
       <section className="section projects-section" id="projects">
         <div className="section-shell">
           <div className="section-heading">
-            <div className="eyebrow light">02 / Selected work</div>
+            <div className="eyebrow light">02 / Projects</div>
             <h2>Enterprise platforms.<br />Real operational impact.</h2>
           </div>
           <div className="projects-list">
