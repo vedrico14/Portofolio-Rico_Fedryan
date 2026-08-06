@@ -157,8 +157,8 @@ export default function Home() {
         </a>
 
         <nav className="desktop-nav" aria-label="Primary navigation">
-          <a href="#expertise">Profile</a>
-          <a href="#projects">Projects</a>
+          <a href="#Profile">Profile</a>
+          <a href="#Projects">Projects</a>
           <a href="#Skills">Skills &amp; Expertise</a>
           <a href="#Certifications">Certifications &amp; Achievements</a>
         </nav>
