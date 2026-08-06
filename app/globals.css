@@ -114,7 +114,7 @@ summary {
   font-family: var(--font-geist-mono), monospace;
   font-size: 12px;
   letter-spacing: 0.04em;
-  transform: translateX(140px);
+  transform: translateX(120px);
 }
 
 .desktop-nav a,
@@ -1721,4 +1721,10 @@ a[href="#experience"],
 
 .certificate-check {
   display: none;
+}
+
+@media (min-width: 801px) {
+  .site-header > .desktop-nav {
+    transform: translateX(140px) !important;
+  }
 }
