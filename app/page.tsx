@@ -516,8 +516,8 @@ export default function Home() {
               </article>
               <article>
                 <span>2017 — 2020</span>
-                <h3>Computer &amp; Network Engineering</h3>
-                <p>Vocational High School</p>
+                <h3>Vocational High School</h3>
+                <p>Computer &amp; Network Engineering</p>
                 <strong>SMK Wikrama Bogor</strong>
               </article>
               <div className="education-quote">
