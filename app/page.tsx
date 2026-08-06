@@ -254,6 +254,20 @@ export default function Home() {
                 <span className="code-value"> &quot;analyze. solve. improve.&quot;</span>
               </p>
             </div>
+            
+            <div className="panel-badge">
+              <span className="shield">✓</span>
+
+            <div>
+              <strong>CyberArk Certified</strong>
+              <small>Certified Trustee</small>
+            </div>
+          </div>
+
+          </div>
+          </div>
+
+<div className="section-shell stats-bar">
            
         <div className="section-shell stats-bar">
           <div>
