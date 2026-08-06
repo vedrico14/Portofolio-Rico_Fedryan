@@ -157,10 +157,10 @@ export default function Home() {
         </a>
 
         <nav className="desktop-nav" aria-label="Primary navigation">
-          <a href="#expertise">Expertise</a>
+          <a href="#expertise">Profile</a>
           <a href="#projects">Projects</a>
-          <a href="#experience">Experience</a>
-          <a href="#credentials">Credentials</a>
+          <a href="#experience">Skills &amp; Expertise</a>
+          <a href="#credentials">Certifications &amp; Achievements</a>
         </nav>
 
         <a className="header-cta" href="#contact">
@@ -170,11 +170,11 @@ export default function Home() {
         <details className="mobile-menu">
           <summary aria-label="Open navigation">Menu</summary>
           <nav aria-label="Mobile navigation">
-            <a href="#expertise">Expertise</a>
-            <a href="#projects">Projects</a>
-            <a href="#experience">Experience</a>
-            <a href="#credentials">Credentials</a>
-            <a href="#contact">Contact</a>
+            <a href="#Profile">Profile</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Skills">Skills &amp; Expertise</a>
+            <a href="#Certifications">Certifications &amp; Achievements</a>
+            <a href="#Contact">Contact</a>
           </nav>
         </details>
       </header>
@@ -295,7 +295,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section section-intro" id="expertise">
+      <section className="section section-intro" id="Profile">
         <div className="section-shell">
           <div className="section-heading split-heading">
             <div>
@@ -362,7 +362,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section projects-section" id="projects">
+      <section className="section projects-section" id="Projects">
         <div className="section-shell">
           <div className="section-heading">
             <div className="eyebrow light">02 / Projects</div>
@@ -426,7 +426,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section skills-section">
+      <section className="section skills-section" id="Skills">
         <div className="section-shell">
           <div className="section-heading split-heading">
             <div>
@@ -481,7 +481,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section credentials-section" id="credentials">
+      <section className="section credentials-section" id="Certifications">
         <div className="section-shell">
           <div className="section-heading split-heading">
             <div>
