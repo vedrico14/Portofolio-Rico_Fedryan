@@ -109,10 +109,10 @@ summary {
 .desktop-nav {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 48px;
   color: #b9c8ce;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.04em;
 }
 
@@ -138,7 +138,7 @@ summary {
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 9px;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 11px;
+  font-size: 12px;
   transition: border-color 180ms ease, background 180ms ease;
 }
 
@@ -251,7 +251,7 @@ summary {
   gap: 10px;
   color: var(--blue-deep);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -400,7 +400,7 @@ summary {
   margin: 0 0 0 8px;
   color: #78909c;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .terminal-body {
@@ -409,7 +409,7 @@ summary {
   background: rgba(7, 27, 38, 0.9);
   color: #b8cad2;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.9;
 }
 
@@ -427,6 +427,63 @@ summary {
 .terminal-body li::before {
   content: "- ";
   color: #718cff;
+}
+
+.terminal-body > p,
+.terminal-body li {
+  opacity: 0;
+  animation: terminal-text-in 600ms ease forwards;
+}
+
+/* name, role, dan focus */
+.terminal-body > p:nth-of-type(1) {
+  animation-delay: 200ms;
+}
+
+.terminal-body > p:nth-of-type(2) {
+  animation-delay: 400ms;
+}
+
+.terminal-body > p:nth-of-type(3) {
+  animation-delay: 600ms;
+}
+
+/* Daftar focus */
+.terminal-body li:nth-child(1) {
+  animation-delay: 800ms;
+}
+
+.terminal-body li:nth-child(2) {
+  animation-delay: 1000ms;
+}
+
+.terminal-body li:nth-child(3) {
+  animation-delay: 1200ms;
+}
+
+.terminal-body li:nth-child(4) {
+  animation-delay: 1400ms;
+}
+
+.terminal-body li:nth-child(5) {
+  animation-delay: 1600ms;
+}
+
+/* approach */
+.terminal-body > p:nth-of-type(4) {
+  animation-delay: 1800ms;
+}
+
+@keyframes terminal-text-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .code-key {
@@ -510,7 +567,7 @@ summary {
 .stats-bar span {
   max-width: 150px;
   color: #849ca7;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.5;
 }
 
@@ -607,7 +664,7 @@ summary {
   right: 26px;
   color: #9dacb2;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .card-symbol {
@@ -639,7 +696,7 @@ summary {
 .expertise-card p {
   margin: 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.65;
 }
 
@@ -664,7 +721,7 @@ summary {
   border: 1px solid var(--line);
   border-radius: 6px;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.03em;
 }
 
@@ -692,7 +749,7 @@ summary {
   gap: 28px;
   align-items: center;
   min-height: 190px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.20);
   transition: background 180ms ease;
 }
 
@@ -705,13 +762,13 @@ summary {
   padding-top: 40px;
   color: var(--mint);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .project-title > span {
   color: #849aa5;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 9px;
+  font-size: 13px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -726,13 +783,13 @@ summary {
 .project-clients {
   margin: 0;
   color: #8fa5af;
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .project-description {
   margin: 0;
   color: #a4b5bd;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.7;
 }
 
@@ -744,8 +801,9 @@ summary {
 }
 
 .project-tags span {
-  border-color: rgba(255, 255, 255, 0.13);
+  border-color: var(--mint);
   color: #a7bbc4;
+  font-size: 11px;
 }
 
 .experience-layout {
@@ -804,14 +862,14 @@ summary {
   border-radius: 50%;
   color: var(--blue-deep);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .timeline-period {
   margin: 1px 0 14px;
   color: var(--blue-deep);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 650;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -826,13 +884,13 @@ summary {
 .timeline-company {
   margin: 0;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .timeline-summary {
   margin: 22px 0 15px;
   color: var(--ink-soft);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.65;
 }
 
@@ -842,7 +900,7 @@ summary {
   margin: 0;
   padding: 0;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.55;
   list-style: none;
 }
@@ -905,12 +963,12 @@ summary {
 .block-title span {
   color: var(--mint);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .block-title h3 {
   margin: 0;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 550;
 }
 
@@ -924,25 +982,38 @@ summary {
   padding: 9px 11px;
   border-color: var(--line);
   color: var(--ink-soft);
+  font-size: 11px;
 }
 
 .tool-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1px;
-  border: 1px solid var(--line);
-  background: var(--line);
+  gap: 10px;
+  border: none;
+  background: transparent;
 }
 
 .tool-list > div {
   display: flex;
-  gap: 10px;
+  gap: 12px;
   align-items: center;
-  min-height: 62px;
-  padding: 13px;
+  min-height: 68px;
+  padding: 14px 16px;
+  border: 1px solid rgba(89, 226, 194, 0.22);
+  border-radius: 9px;
   background: var(--paper-bright);
   color: var(--ink-soft);
-  font-size: 11px;
+  font-size: 13px;
+  transition:
+    border-color 180ms ease,
+    background 180ms ease,
+    transform 180ms ease;
+}
+
+.tool-list > div:hover {
+  border-color: var(--mint);
+  background: #172b38;
+  transform: translateY(-2px);
 }
 
 .tool-dot {
@@ -967,12 +1038,12 @@ summary {
 }
 
 .soft-skill-list strong {
-  font-size: 12px;
+  font-size: 13x;
 }
 
 .soft-skill-list span {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.55;
 }
 
@@ -1023,7 +1094,7 @@ summary {
   background: var(--paper-bright);
   color: var(--blue-deep);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 800;
 }
 
@@ -1038,7 +1109,7 @@ summary {
   margin: 0;
   color: var(--muted);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .certificate-check {
@@ -1057,6 +1128,13 @@ summary {
   border: 1px solid var(--line);
   background: var(--paper-bright);
   color: var(--ink);
+
+  display: grid;
+  align-content: center;
+}
+
+.education-panel .eyebrow {
+  font-size: 16px;
 }
 
 .education-panel article {
@@ -1067,7 +1145,7 @@ summary {
 .education-panel article > span {
   color: var(--mint);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .education-panel h3 {
@@ -1078,11 +1156,11 @@ summary {
 .education-panel article p {
   margin: 0 0 13px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .education-panel article strong {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 550;
 }
 
@@ -1103,7 +1181,7 @@ summary {
 .education-quote p {
   margin: 0;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
   line-height: 1.7;
 }
@@ -1178,7 +1256,7 @@ summary {
   grid-column: 1;
   color: var(--mint);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -1193,7 +1271,7 @@ summary {
   grid-column: 2;
   align-self: center;
   color: #fff;
-  font-size: 22px;
+  font-size: 21px;
 }
 
 .contact-secondary {
@@ -1230,14 +1308,14 @@ footer {
   margin: 0;
   color: #78909a;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .footer-layout > div:last-child {
   justify-self: end;
   color: #a5b6bd;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .footer-layout > div:last-child a:hover {
