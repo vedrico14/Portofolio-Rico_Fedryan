@@ -151,7 +151,7 @@ export default function Home() {
         <a className="brand" href="#top" aria-label="Back to top">
           <span className="brand-mark">MR</span>
           <span className="brand-copy">
-            <strong>Rico Fedryan</strong>
+            <strong>MUHAMMAD RICO FEDRYAN</strong>
             <small>Security Engineer</small>
           </span>
         </a>
