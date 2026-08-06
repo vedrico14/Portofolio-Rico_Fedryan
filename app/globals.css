@@ -114,7 +114,7 @@ summary {
   font-family: var(--font-geist-mono), monospace;
   font-size: 12px;
   letter-spacing: 0.04em;
-  transform: translateX(90px);
+  transform: translateX(110px);
 }
 
 .desktop-nav a,
