@@ -430,7 +430,7 @@ export default function Home() {
         <div className="section-shell">
           <div className="section-heading split-heading">
             <div>
-              <div className="eyebrow light">04 / Capabilities</div>
+              <div className="eyebrow light">03 / Skills & Expertise</div>
               <h2>Skills that connect security and operations.</h2>
             </div>
             <p>
@@ -485,7 +485,7 @@ export default function Home() {
         <div className="section-shell">
           <div className="section-heading split-heading">
             <div>
-              <div className="eyebrow">05 / Credentials</div>
+              <div className="eyebrow">04 / Certifications & Achievements</div>
               <h2>Validated learning.<br />Continuous growth.</h2>
             </div>
             <a
@@ -542,7 +542,7 @@ export default function Home() {
         <div className="contact-grid" aria-hidden="true" />
         <div className="section-shell contact-layout">
           <div>
-            <div className="eyebrow light">06 / Contact</div>
+            <div className="eyebrow light">05 / Contact</div>
             <h2>Have a security or infrastructure challenge?</h2>
             <p>
               Let&apos;s connect and talk about how I can help your team keep
