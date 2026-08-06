@@ -1749,7 +1749,7 @@ a[href="#experience"],
   font-size: 11px;
 }
 
-.certificate:nth-child(-n + 2) .certificate-check::after {
+.certificate:nth-child(-n + 6) .certificate-check::after {
   content: "CERTIFIED";
 }
 
