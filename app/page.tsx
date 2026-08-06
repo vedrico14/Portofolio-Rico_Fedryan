@@ -538,7 +538,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="contact-section" id="contact">
+      <section className="contact-section" id="Contact">
         <div className="contact-grid" aria-hidden="true" />
         <div className="section-shell contact-layout">
           <div>
