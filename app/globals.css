@@ -2,10 +2,10 @@
   --font-geist-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   --ink: #071724;
   --ink-soft: #183141;
-  --paper: #89969d;
-  --paper-bright: #98a4aa;
-  --muted: #314a56;
-  --line: #667882;
+  --paper: #f3f6f6;
+  --paper-bright: #ffffff;
+  --muted: #60717b;
+  --line: #d6dfe2;
   --blue: #718cff;
   --blue-deep: #4968f4;
   --mint: #59e2c2;
@@ -522,6 +522,20 @@ summary {
   background: var(--paper);
 }
 
+/* Unified dark theme for the middle content only.
+   Projects already has its own dark styling; hero, contact, and footer are untouched. */
+.section:not(.projects-section):not(.contact-section) {
+  --ink: #f4f7f8;
+  --ink-soft: #d7e0e5;
+  --paper: #08151f;
+  --paper-bright: #101f2a;
+  --muted: #9fb2bd;
+  --line: #263a46;
+  --blue-deep: #8ea2ff;
+  background: var(--paper);
+  color: var(--ink);
+}
+
 .section-heading {
   margin-bottom: 58px;
 }
@@ -574,11 +588,12 @@ summary {
   color: var(--ink);
 }
 
-.expertise-card:hover {
+.expertise-card:hover,
+.expertise-card.featured-card:hover {
   z-index: 2;
-  background: #7f8c93;
+  background: #172b38;
   color: var(--ink);
-  box-shadow: 0 25px 60px rgba(7, 23, 36, 0.2);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.28);
   transform: translateY(-5px);
 }
 
@@ -609,9 +624,9 @@ summary {
 }
 
 .featured-card .card-symbol {
-  border-color: rgba(255, 255, 255, 0.15);
-  background: rgba(89, 226, 194, 0.08);
-  color: var(--mint);
+  border-color: var(--line);
+  background: transparent;
+  color: var(--blue-deep);
 }
 
 .expertise-card h3 {
@@ -629,7 +644,7 @@ summary {
 }
 
 .featured-card p {
-  color: #9bb0ba;
+  color: var(--muted);
 }
 
 .card-tags {
@@ -654,8 +669,8 @@ summary {
 }
 
 .featured-card .card-tags span {
-  border-color: rgba(255, 255, 255, 0.12);
-  color: #b8c9d0;
+  border-color: var(--line);
+  color: var(--ink-soft);
 }
 
 .projects-section {
@@ -849,26 +864,35 @@ summary {
 }
 
 .skills-section {
-  background: var(--ink-soft);
-  color: #fff;
+  background: var(--paper);
+  color: var(--ink);
 }
 
 .skills-section .split-heading > p {
-  color: #9db0b9;
+  color: var(--muted);
 }
 
 .skills-layout {
   display: grid;
   grid-template-columns: 1fr 0.85fr 1fr;
-  border-top: 1px solid rgba(255, 255, 255, 0.13);
-  border-left: 1px solid rgba(255, 255, 255, 0.13);
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
 }
 
 .skills-block {
   min-height: 430px;
   padding: 32px;
-  border-right: 1px solid rgba(255, 255, 255, 0.13);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: var(--paper-bright);
+  transition: background 220ms ease, transform 220ms ease, box-shadow 220ms ease;
+}
+
+.skills-block:hover {
+  z-index: 2;
+  background: #172b38;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.22);
+  transform: translateY(-5px);
 }
 
 .block-title {
@@ -898,16 +922,16 @@ summary {
 
 .skill-cloud span {
   padding: 9px 11px;
-  border-color: rgba(255, 255, 255, 0.13);
-  color: #b8c8ce;
+  border-color: var(--line);
+  color: var(--ink-soft);
 }
 
 .tool-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--line);
+  background: var(--line);
 }
 
 .tool-list > div {
@@ -916,8 +940,8 @@ summary {
   align-items: center;
   min-height: 62px;
   padding: 13px;
-  background: var(--ink-soft);
-  color: #b8c8ce;
+  background: var(--paper-bright);
+  color: var(--ink-soft);
   font-size: 11px;
 }
 
@@ -939,7 +963,7 @@ summary {
   gap: 14px;
   margin: 0;
   padding-block: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.11);
+  border-bottom: 1px solid var(--line);
 }
 
 .soft-skill-list strong {
@@ -947,7 +971,7 @@ summary {
 }
 
 .soft-skill-list span {
-  color: #93a8b1;
+  color: var(--muted);
   font-size: 11px;
   line-height: 1.55;
 }
@@ -981,6 +1005,12 @@ summary {
   align-items: center;
   min-height: 90px;
   border-bottom: 1px solid var(--line);
+  transition: background 180ms ease, transform 180ms ease;
+}
+
+.certificate:hover {
+  background: var(--paper-bright);
+  transform: translateX(6px);
 }
 
 .certificate-mark {
@@ -990,7 +1020,7 @@ summary {
   place-items: center;
   border: 1px solid var(--line);
   border-radius: 10px;
-  background: var(--paper);
+  background: var(--paper-bright);
   color: var(--blue-deep);
   font-family: var(--font-geist-mono), monospace;
   font-size: 10px;
@@ -1024,13 +1054,14 @@ summary {
 
 .education-panel {
   padding: 40px;
-  background: var(--navy);
-  color: #fff;
+  border: 1px solid var(--line);
+  background: var(--paper-bright);
+  color: var(--ink);
 }
 
 .education-panel article {
   padding-block: 32px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+  border-bottom: 1px solid var(--line);
 }
 
 .education-panel article > span {
@@ -1046,7 +1077,7 @@ summary {
 
 .education-panel article p {
   margin: 0 0 13px;
-  color: #a4b5bd;
+  color: var(--muted);
   font-size: 12px;
 }
 
@@ -1071,7 +1102,7 @@ summary {
 
 .education-quote p {
   margin: 0;
-  color: #9bb0ba;
+  color: var(--muted);
   font-size: 12px;
   font-style: italic;
   line-height: 1.7;
