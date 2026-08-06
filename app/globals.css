@@ -1565,6 +1565,21 @@ footer {
     display: none;
   }
 
+  .expertise-card {
+    min-height: auto;
+    padding: 28px 24px;
+  }
+
+  .card-symbol {
+    margin-bottom: 42px;
+  }
+
+  .card-tags {
+    position: static;
+    margin-top: 28px;
+  }
+}
+
   .hero-layout {
     gap: 56px;
   }
