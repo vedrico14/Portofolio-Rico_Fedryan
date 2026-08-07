@@ -749,6 +749,11 @@ summary {
   letter-spacing: 0.03em;
 }
 
+.skill-cloud span {
+  font-size: 13px;
+  padding: 9px 12px;
+}
+
 .featured-card .card-tags span {
   border-color: var(--line);
   color: var(--ink-soft);
