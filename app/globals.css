@@ -2131,27 +2131,11 @@ a[href="#experience"],
     position: relative !important;
   }
 
-  /* Nama tetap satu baris */
-  footer .brand-copy strong {
-    white-space: nowrap !important;
-  }
-
-  /* Samakan font SECURITY ENGINEER dan Back to top */
-  footer .brand-copy span,
-  footer .footer-layout > div:last-child {
-    font-family: var(--font-geist-mono), monospace !important;
-    font-size: 12px !important;
-    font-weight: 400 !important;
-    line-height: 1.2 !important;
-    letter-spacing: 0.08em !important;
-  }
-
-  /* Sejajarkan Back to top dengan SECURITY ENGINEER */
   footer .footer-layout > div:last-child {
     position: absolute !important;
     right: 0 !important;
-    bottom: 0 !important;
-    top: auto !important;
+    top: 39px !important;
+    bottom: auto !important;
     white-space: nowrap !important;
   }
 }
