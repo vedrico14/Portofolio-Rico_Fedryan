@@ -193,7 +193,10 @@ export default function Home() {
         <div className="section-shell hero-layout">
           <div className="hero-copy">
             <div className="eyebrow light">
-              <span className="status-dot" /> READY FOR SECURITY ENGINEER OPPORTUNITIES
+              <span className="status-dot" />
+              <span className="ready-text">
+                READY FOR SECURITY ENGINEER OPPORTUNITIES
+              </span>
             </div>
             <h1>
               Securing access.
