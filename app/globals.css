@@ -1589,6 +1589,25 @@ footer {
   overflow: visible;
 }
 
+  .stats-bar {
+  grid-template-columns: 1fr;
+}
+
+.stats-bar > div {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.stats-bar strong {
+  width: auto;
+}
+
+.stats-bar span {
+  margin: 0;
+}
+
   .hero-layout {
     gap: 56px;
   }
