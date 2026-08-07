@@ -44,6 +44,15 @@ const projects = [
       "Supporting static application security testing implementation to help identify code-level security findings earlier in the development lifecycle.",
     tags: ["Semgrep", "SAST", "AppSec", "SCA", "OWASP TOP 10"],
   },
+  {
+    number: "06",
+    title: "HPE Server",
+    category: "Server Infrastructure",
+    clients: "PT Bank Rakyat Indonesia Tbk.",
+    description:
+      "Supporting HPE ProLiant server infrastructure for a Cloudera environment, including RHEL installation, required package preparation, hardware monitoring, onsite checks, and remote server administration.",
+    tags: ["HPE ProLiant", "RHEL","Cloudera","HPE OneView","HPE iLO"],
+},
 ];
 
 const experience = [
@@ -123,29 +132,40 @@ const certifications = [
 ];
 
 const skills = [
-  "Security Operations",
-  "Privileged Access Management",
-  "Patch Management",
-  "Vulnerability Scanning & Reporting",
-  "Static Application Security Testing",
-  "Linux & Windows Server",
+  "Authentication System",
   "Bash Scripting",
   "Cloud Computing",
-  "Network Administration",
+  "Cyber Security",
+  "Dashboards",
+  "Identity and Access Management",
+  "Linux & Windows Server",
   "Monitoring & Logging",
+  "Network Administration",
+  "Patch Management",
+  "Privileged Access Management",
+  "Security Operations",
+  "Static Application Security Testing",
+  "Virtual Machines",
+  "Vulnerability Scanning & Reporting",
+  "Web Servers",
 ];
 
 const tools = [
   "CyberArk PAM",
-  "HCL BigFix",
-  "Tenable Nessus & SC",
-  "HPE iLO & OneView",
   "Docker",
-  "Semgrep SAST",
-  "Grafana",
-  "Prometheus",
-  "Google Cloud Platform (GCP)",
   "Elastic Stack",
+  "GitHub",
+  "GitLab",
+  "Google Cloud Platform (GCP)",
+  "Grafana",
+  "HCL BigFix",
+  "HPE iLO & OneView",
+  "Prometheus",
+  "Semgrep SAST",
+  "Tenable Nessus & SC",
+  "Vercel",
+  "VirtualBox",
+  "VMware",
 ];
 
 function ArrowIcon() {
@@ -491,8 +511,11 @@ export default function Home() {
               <div className="soft-skill-list">
                 <p><strong>Analytical</strong><span>Break down complex issues into clear actions.</span></p>
                 <p><strong>Collaborative</strong><span>Work effectively with clients and internal teams.</span></p>
+                <p><strong>Composed</strong><span>Maintain a steady and solution-focused approach under pressure.</span></p>
                 <p><strong>Disciplined</strong><span>Stay consistent with process, quality, and follow-through.</span></p>
                 <p><strong>Fast learner</strong><span>Adapt quickly to unfamiliar technology and challenges.</span></p>
+                <p><strong>Reliable</strong><span>Deliver commitments consistently and on schedule.</span></p>
+                <p><strong>Thorough</strong><span>Complete tasks carefully with close attention to quality and accuracy.</span></p>
               </div>
             </div>
           </div>
