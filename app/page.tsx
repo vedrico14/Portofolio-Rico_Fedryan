@@ -600,7 +600,6 @@ export default function Home() {
               <a href="tel:+6285156349459">
                 <span>Phone</span>
                 <strong>085156349459</strong>
-                <ArrowIcon />
               </a>
               <a
                 href="https://linkedin.com/in/ricofedryan14"
@@ -609,7 +608,6 @@ export default function Home() {
               >
                 <span>LinkedIn</span>
                 <strong>/in/ricofedryan14</strong>
-                <ArrowIcon />
               </a>
             </div>
           </div>
