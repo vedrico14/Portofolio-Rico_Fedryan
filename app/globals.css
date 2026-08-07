@@ -2206,3 +2206,14 @@ a[href="#experience"],
     }
   }
 }
+
+@media (max-width: 800px) {
+  .contact-primary {
+    padding: 22px !important;
+  }
+
+  .contact-primary strong {
+    font-size: 12px !important;
+    font-weight: 550 !important;
+  }
+}
