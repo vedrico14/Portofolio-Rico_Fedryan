@@ -149,10 +149,9 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand header-brand" href="#top" aria-label="Back to top">
-          <span className="brand-mark brand-twinkle" aria-hidden="true">  
-            <span className="twinkle-star twinkle-main">✦</span>
-            <span className="twinkle-star twinkle-top">✦</span>
-            <span className="twinkle-star twinkle-bottom">✦</span>
+          <span className="brand-mark terminal-mark" aria-hidden="true">
+            <span className="terminal-symbol">&gt;</span>
+            <span className="terminal-cursor">_</span>
           </span>
 
           <span className="brand-copy">
