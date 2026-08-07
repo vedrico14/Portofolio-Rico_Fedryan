@@ -1597,7 +1597,7 @@ footer {
   display: grid;
   grid-template-columns: 64px 1fr;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 15px;
 }
 
 .stats-bar strong {
