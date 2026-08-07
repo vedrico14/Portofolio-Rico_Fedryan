@@ -2187,7 +2187,7 @@ a[href="#experience"],
 @media (max-width: 800px) {
   .site-header .brand-open-status {
     position: relative !important;
-    top: 9px !important;
+    top: 12px !important;
   }
 
   .site-header .brand-open-status > span {
@@ -2202,7 +2202,7 @@ a[href="#experience"],
     }
 
     to {
-      width: 22ch;
+      width: 22.5ch;
     }
   }
 }
