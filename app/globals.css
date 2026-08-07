@@ -2139,3 +2139,9 @@ a[href="#experience"],
     white-space: nowrap !important;
   }
 }
+
+@media (max-width: 800px) {
+  footer .footer-layout > div:last-child {
+    font-size: 11px !important;
+  }
+}
