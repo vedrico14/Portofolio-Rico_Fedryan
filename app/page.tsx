@@ -42,7 +42,7 @@ const projects = [
     clients: "KB Bank",
     description:
       "Supporting static application security testing implementation to help identify code-level security findings earlier in the development lifecycle.",
-    tags: ["Semgrep", "SAST", "AppSec", "SCA", "OWASP"],
+    tags: ["Semgrep", "SAST", "AppSec", "SCA", "OWASP TOP 10"],
   },
 ];
 
