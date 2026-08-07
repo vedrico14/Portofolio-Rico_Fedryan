@@ -583,7 +583,10 @@ export default function Home() {
       <footer>
         <div className="section-shell footer-layout">
           <a className="brand footer-brand" href="#top">
-            <span className="brand-mark">MR</span>
+            <span className="brand-mark footer-terminal" aria-hidden="true">
+            <span className="footer-terminal-symbol">&gt;</span>
+            <span className="footer-terminal-cursor">_</span>
+            </span>
             <span className="brand-copy">
               <strong>Muhammad Rico Fedryan</strong>
               <small>Security Engineer</small>
