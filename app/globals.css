@@ -1792,7 +1792,16 @@ a[href="#experience"],
   font-size: 11px;
 }
 
-.certificate:nth-child(-n + 6) .certificate-check::after {
+.certificate:nth-child(1) .certificate-check::after,
+.certificate:nth-child(2) .certificate-check::after,
+.certificate:nth-child(5) .certificate-check::after,
+.certificate:nth-child(6) .certificate-check::after,
+.certificate:nth-child(7) .certificate-check::after,
+.certificate:nth-child(8) .certificate-check::after,
+.certificate:nth-child(9) .certificate-check::after,
+.certificate:nth-child(10) .certificate-check::after,
+.certificate:nth-child(11) .certificate-check::after,
+.certificate:nth-child(12) .certificate-check::after {
   content: "CERTIFIED";
 }
 
