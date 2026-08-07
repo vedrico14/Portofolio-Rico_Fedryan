@@ -1334,7 +1334,7 @@ summary {
 }
 
 .contact-primary strong {
-  font-size: clamp(14px, 1.5vw, 18px);
+  font-size: clamp(14px, 1.5vw, 16px);
   font-weight: 550;
 }
 
