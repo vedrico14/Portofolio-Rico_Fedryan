@@ -2217,3 +2217,9 @@ a[href="#experience"],
     font-weight: 550 !important;
   }
 }
+
+@media (min-width: 801px) {
+  .contact-primary strong {
+    font-size: 22px !important;
+  }
+}
