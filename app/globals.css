@@ -1801,3 +1801,38 @@ a[href="#experience"],
     transform: translateX(140px) !important;
   }
 }
+
+.site-header .brand-twinkle {
+  position: relative;
+  overflow: hidden;
+}
+
+.site-header .twinkle-star {
+  position: absolute;
+  line-height: 1;
+  color: var(--blue);
+  opacity: 0.25;
+  animation: brandTwinkle 1.8s ease-in-out infinite;
+}
+
+.site-header .brand-open-status {
+  display: block;
+  margin-top: 4px;
+  color: var(--mint);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 11px;
+  line-height: 1.2;
+  letter-spacing: 0.12em;
+  white-space: nowrap;
+}
+
+.site-header .brand-open-status > span {
+  display: block;
+  width: 0;
+  overflow: hidden;
+  border-right: 2px solid var(--mint);
+  white-space: nowrap;
+  animation:
+    brandTyping 4.8s steps(20, end) infinite,
+    brandTypingCursor 700ms step-end infinite;
+}
