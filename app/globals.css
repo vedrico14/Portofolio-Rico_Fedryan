@@ -1977,7 +1977,7 @@ a[href="#experience"],
 .hero .eyebrow.light {
   display: inline-grid !important;
   grid-template-columns: 38px max-content;
-  column-gap: 10px !important;
+  column-gap: 2px !important;
   align-items: center;
 }
 
