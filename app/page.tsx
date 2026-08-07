@@ -301,7 +301,7 @@ export default function Home() {
             <span>Enterprise solution portfolios</span>
           </div>
           <div>
-            <strong>7</strong>
+            <strong>12</strong>
             <span>Professional certifications</span>
           </div>
           <div>
