@@ -1950,3 +1950,42 @@ a[href="#experience"],
     padding-inline: 18px !important;
   }
 }
+
+/* ===== PERAPIAN FINAL HEADER DAN STATUS AVAILABLE ===== */
+
+/* Terminal dan teks header memakai dua kolom yang rapi */
+.site-header .header-brand {
+  display: grid !important;
+  grid-template-columns: 38px max-content;
+  column-gap: 10px !important;
+  align-items: center;
+  margin-left: 0 !important;
+}
+
+/* Beri terminal ruang agar tidak menabrak OPEN TO WORK */
+.site-header .brand-mark.terminal-mark {
+  width: 38px !important;
+  height: 38px !important;
+  min-width: 38px !important;
+  flex: none !important;
+  white-space: nowrap;
+}
+
+/* Nama dan OPEN TO WORK berada pada garis awal yang sama */
+.site-header .brand-copy {
+  margin: 0 !important;
+  min-width: 0;
+}
+
+/* Samakan susunan bagian bawah dengan header */
+.hero .eyebrow.light {
+  display: inline-grid !important;
+  grid-template-columns: 38px max-content;
+  column-gap: 10px !important;
+  align-items: center;
+}
+
+/* Pusatkan titik hijau dengan terminal */
+.hero .eyebrow.light > :first-child {
+  justify-self: center;
+}
