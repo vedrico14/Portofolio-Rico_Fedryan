@@ -2145,3 +2145,41 @@ a[href="#experience"],
     font-size: 11px !important;
   }
 }
+
+@media (max-width: 800px) {
+  .site-header .header-brand {
+    display: flex !important;
+    align-items: center !important;
+    gap: 16px !important;
+  }
+
+  /* Tampilkan kembali tempat status */
+  .site-header .brand-copy {
+    display: block !important;
+    width: auto !important;
+    margin: 0 !important;
+    min-width: 0 !important;
+  }
+
+  /* Nama tetap disembunyikan pada mobile */
+  .site-header .brand-copy > strong {
+    display: none !important;
+  }
+
+  /* Tampilkan hanya STATUS: OPEN TO WORK */
+  .site-header .brand-open-status {
+    display: block !important;
+    margin: 0 !important;
+    color: var(--mint) !important;
+    font-family: var(--font-geist-mono), monospace !important;
+    font-size: 9px !important;
+    line-height: 1 !important;
+    letter-spacing: 0.08em !important;
+    white-space: nowrap !important;
+  }
+
+  .site-header .brand-open-status > span {
+    display: block !important;
+    white-space: nowrap !important;
+  }
+}
