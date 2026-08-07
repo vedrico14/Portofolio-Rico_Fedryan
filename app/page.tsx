@@ -144,6 +144,8 @@ const tools = [
   "Semgrep SAST",
   "Grafana",
   "Prometheus",
+  "Google Cloud Platform (GCP)",
+  "Elastic Stack",
 ];
 
 function ArrowIcon() {
