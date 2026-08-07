@@ -198,7 +198,7 @@ export default function Home() {
               vulnerability management, and infrastructure operations.
             </p>
             <div className="hero-actions">
-              <a className="button button-primary" href="#projects">
+              <a className="button button-primary" href="#Projects">
                 Explore my work <ArrowIcon />
               </a>
               <a className="button button-ghost" href="mailto:ricofedryan14@gmail.com">
