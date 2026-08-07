@@ -2006,3 +2006,49 @@ a[href="#experience"],
   grid-template-columns: 38px max-content !important;
   column-gap: 25px !important;
 }
+
+@media (max-width: 800px) {
+  /* Kembalikan susunan header mobile */
+  .site-header .header-brand {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0 !important;
+  }
+
+  /* Rapikan terminal dan geser kembali dari tepi kiri */
+  .site-header .brand-mark.terminal-mark {
+    position: relative;
+    left: 0 !important;
+    width: auto !important;
+    min-width: 0 !important;
+    height: 38px !important;
+    display: inline-flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 0 !important;
+    letter-spacing: 0 !important;
+    white-space: nowrap;
+  }
+
+  .site-header .terminal-symbol,
+  .site-header .terminal-cursor {
+    display: inline-block !important;
+    flex: 0 0 auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Rapikan titik hijau dan tulisan READY */
+  .hero .eyebrow.light {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 16px !important;
+  }
+
+  .hero .eyebrow.light > :first-child {
+    position: relative;
+    left: 0 !important;
+    flex: 0 0 auto;
+  }
+}
