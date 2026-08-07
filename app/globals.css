@@ -2094,3 +2094,9 @@ a[href="#experience"],
   display: inline-block;
   animation: terminalBlink 800ms step-end infinite;
 }
+
+.hero .eyebrow.light .ready-text {
+  display: inline-block;
+  position: relative;
+  left: -10px;
+}
