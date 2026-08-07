@@ -594,6 +594,13 @@ summary {
   line-height: 1.5;
 }
 
+@media (min-width: 801px) {
+  .stats-bar span {
+    max-width: none;
+    white-space: nowrap;
+  }
+}
+
 .section {
   padding-block: 120px;
 }
