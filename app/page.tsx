@@ -591,7 +591,7 @@ export default function Home() {
             <span className="footer-terminal-cursor">_</span>
             </span>
             <span className="brand-copy">
-              <strong>Muhammad Rico Fedryan</strong>
+              <strong>MUHAMMAD RICO FEDRYAN</strong>
               <small>Security Engineer</small>
             </span>
           </a>
