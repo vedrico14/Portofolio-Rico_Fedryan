@@ -2129,6 +2129,6 @@ a[href="#experience"],
 @media (max-width: 800px) {
   footer .footer-layout > div:last-child {
     position: relative !important;
-    top: 6px !important;
+    top: 8px !important;
   }
 }
