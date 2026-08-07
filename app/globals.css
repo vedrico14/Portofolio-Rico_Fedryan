@@ -1913,3 +1913,40 @@ a[href="#experience"],
     border-color: transparent;
   }
 }
+
+.site-header {
+  padding-inline: max(
+    24px,
+    calc((100vw - var(--max-width)) / 2)
+  ) !important;
+}
+
+/* Jarak ikon ke nama sama dengan titik ke tulisan status */
+.site-header .brand {
+  gap: 10px !important;
+  margin-left: 0 !important;
+}
+
+/* Pusat terminal sejajar dengan pusat titik hijau */
+.site-header .brand-mark.terminal-mark {
+  position: relative;
+  width: 8px !important;
+  height: 38px;
+  flex: 0 0 8px !important;
+  overflow: visible;
+  white-space: nowrap;
+}
+
+/* Terminal tetap utuh meskipun kolomnya kecil */
+.site-header .terminal-symbol,
+.site-header .terminal-cursor {
+  display: inline-block;
+  flex: 0 0 auto;
+}
+
+/* Samakan juga pada tablet dan HP */
+@media (max-width: 800px) {
+  .site-header {
+    padding-inline: 18px !important;
+  }
+}
