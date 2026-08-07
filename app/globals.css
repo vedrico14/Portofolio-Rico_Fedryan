@@ -2100,3 +2100,28 @@ a[href="#experience"],
   position: relative;
   left: -4px;
 }
+
+/* ===== POSISI STATUS DOT KHUSUS MOBILE ===== */
+@media (max-width: 800px) {
+  .hero .eyebrow.light {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 20px !important;
+  }
+
+  /* Sejajarkan titik dengan baris pertama: READY */
+  .hero .eyebrow.light .status-dot {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    margin-top: 7px !important;
+    flex: 0 0 auto !important;
+  }
+
+  /* Hilangkan pergeseran kiri pada teks khusus mobile */
+  .hero .eyebrow.light .ready-text {
+    position: relative !important;
+    left: 0 !important;
+    min-width: 0;
+  }
+}
