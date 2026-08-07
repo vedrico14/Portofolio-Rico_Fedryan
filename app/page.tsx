@@ -296,15 +296,15 @@ export default function Home() {
         <div className="section-shell stats-bar">
           <div>
             <strong>6+</strong>
-            <span>Years in IT operations &amp; security</span>
+            <span>Years in IT Operations &amp; Security</span>
           </div>
           <div>
-            <strong>5</strong>
-            <span>Enterprise solution portfolios</span>
+            <strong>6</strong>
+            <span>Enterprise Solution Portfolios</span>
           </div>
           <div>
             <strong>12</strong>
-            <span>Professional certifications</span>
+            <span>Professional Certifications</span>
           </div>
           <div>
             <strong>4</strong>
