@@ -1802,71 +1802,114 @@ a[href="#experience"],
   }
 }
 
-.site-header .brand-mark.brand-twinkle {
-  position: relative;
-  display: block;
+.site-header .brand-mark.terminal-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
   width: 58px;
   height: 58px;
   flex: 0 0 58px;
-
   padding: 0;
   border: 0 !important;
   border-radius: 0 !important;
   background: transparent !important;
   box-shadow: none !important;
   overflow: visible;
-}
-
-.site-header .twinkle-star {
-  position: absolute;
-  display: block;
+  color: #65e6c4;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 25px;
+  font-weight: 700;
   line-height: 1;
-  color: var(--blue);
-  transform-origin: center;
-  animation: headerTwinkle 1.8s ease-in-out infinite;
+  letter-spacing: 1px;
+  filter: drop-shadow(0 0 5px rgba(101, 230, 196, 0.5));
 }
 
-.site-header .twinkle-main {
-  top: 50%;
-  left: 50%;
-  font-size: 29px;
-  color: #eaf4ff;
-  animation-delay: 0s;
+.site-header .terminal-symbol {
+  display: inline-block;
+  animation: terminalGlow 2s ease-in-out infinite;
 }
 
-.site-header .twinkle-top {
-  top: 6px;
-  right: 5px;
-  font-size: 12px;
-  animation-delay: 0.6s;
+.site-header .terminal-cursor {
+  display: inline-block;
+  animation: terminalBlink 800ms step-end infinite;
 }
 
-.site-header .twinkle-bottom {
-  bottom: 7px;
-  left: 6px;
-  font-size: 9px;
-  animation-delay: 1.2s;
-}
-
-@keyframes headerTwinkle {
+@keyframes terminalGlow {
   0%,
   100% {
-    opacity: 0.25;
-    transform: translate(-50%, -50%) scale(0.65) rotate(0deg);
-    filter: drop-shadow(0 0 0 transparent);
+    opacity: 0.55;
+    transform: translateY(0);
+    filter: drop-shadow(0 0 2px rgba(101, 230, 196, 0.3));
   }
 
   50% {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1.25) rotate(18deg);
-    filter: drop-shadow(0 0 8px rgba(113, 140, 255, 0.95));
+    transform: translateY(-1px);
+    filter: drop-shadow(0 0 8px rgba(101, 230, 196, 0.9));
   }
 }
 
-.site-header .twinkle-top {
-  transform-origin: center;
+@keyframes terminalBlink {
+  0%,
+  45% {
+    opacity: 1;
+  }
+
+  46%,
+  100% {
+    opacity: 0.15;
+  }
 }
 
-.site-header .twinkle-bottom {
-  transform-origin: center;
+/* Status Open to Work */
+.site-header .brand-open-status {
+  display: block;
+  width: max-content;
+  margin-top: 4px;
+  color: var(--mint);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 11px;
+  line-height: 1.2;
+  letter-spacing: 0.12em;
+  white-space: nowrap;
+}
+
+.site-header .brand-open-status > span {
+  display: block;
+  width: 0;
+  overflow: hidden;
+  border-right: 2px solid var(--mint);
+  white-space: nowrap;
+  animation:
+    headerStatusTyping 5s steps(20, end) infinite,
+    headerStatusCursor 700ms step-end infinite;
+}
+
+@keyframes headerStatusTyping {
+  0%,
+  10% {
+    width: 0;
+  }
+
+  50%,
+  82% {
+    width: 22.5ch;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes headerStatusCursor {
+  0%,
+  49% {
+    border-color: var(--mint);
+  }
+
+  50%,
+  100% {
+    border-color: transparent;
+  }
 }
