@@ -232,15 +232,15 @@ export default function Home() {
             </h1>
             <p className="hero-lead">
               I&apos;m <strong>Muhammad Rico Fedryan</strong>, a Security 
-              Engineer focused on privileged access, endpoint security, patch management,
-              vulnerability management, and infrastructure operations.
+              Engineer focused on Privileged Access Management, Endpoint Security, Patch Management,
+              Vulnerability Management, and Infrastructure Operations.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#Projects">
                 Explore my work <ArrowIcon />
               </a>
               <a className="button button-ghost" href="mailto:ricofedryan14@gmail.com">
-                Email me
+                Email me <ArrowIcon />
               </a>
             </div>
             <div className="hero-socials" aria-label="Professional links">
