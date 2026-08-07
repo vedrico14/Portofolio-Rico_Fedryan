@@ -2059,3 +2059,38 @@ a[href="#experience"],
     gap: 13px !important;
   }
 }
+
+.brand-mark.footer-terminal {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: row !important;
+  gap: 1px !important;
+  width: 58px !important;
+  height: 58px !important;
+  flex: 0 0 58px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+  white-space: nowrap;
+  color: #65e6c4;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1px;
+  filter: drop-shadow(0 0 5px rgba(101, 230, 196, 0.5));
+}
+
+.footer-terminal-symbol {
+  display: inline-block;
+  animation: terminalGlow 2s ease-in-out infinite;
+}
+
+.footer-terminal-cursor {
+  display: inline-block;
+  animation: terminalBlink 800ms step-end infinite;
+}
