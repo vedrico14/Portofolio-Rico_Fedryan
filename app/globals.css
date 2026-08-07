@@ -2125,3 +2125,11 @@ a[href="#experience"],
     min-width: 0;
   }
 }
+
+/* Sejajarkan Back to top dengan SECURITY ENGINEER — mobile */
+@media (max-width: 800px) {
+  .site-footer .back-to-top {
+    position: relative;
+    top: 12px !important;
+  }
+}
