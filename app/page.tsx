@@ -99,7 +99,11 @@ const experience = [
 ];
 
 const certifications = [
+  { name: "Pre Security (Sec0)", issuer: "TryHackMe", mark: "TH" },
   { name: "CyberArk Certified Trustee", issuer: "CyberArk", mark: "CA" },
+  { name: "Privileged Access Management (PAM) Administration for Partners", issuer: "CyberArk" },
+  { name: "CyberArk (PAM) Install and Configure for Partners", issuer: "CyberArk" },
+  { name: "Configure Service Accounts and IAM Roles for Google Cloud", issuer: "Google Cloud" },
   {
     name: "HCLSoftware Certified Sales Foundation · BigFix Platform",
     issuer: "HCLSoftware",
@@ -113,7 +117,9 @@ const certifications = [
     issuer: "Btech Academy",
     mark: "DO",
   },
-  { name: "Pre Security", issuer: "TryHackMe", mark: "TH" },
+  
+  { name: "NSE 1 Network Security Associate", issuer: "Fortinet NSE Institute" },
+  { name: "NSE 2 Network Security Associate", issuer: "Fortinet NSE Institute" },
 ];
 
 const skills = [
