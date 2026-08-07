@@ -163,7 +163,7 @@ export default function Home() {
           <a href="#Certifications">Certifications</a>
         </nav>
 
-        <a className="header-cta" href="#contact">
+        <a className="header-cta" href="#Contact">
           Let&apos;s connect <ArrowIcon />
         </a>
 
