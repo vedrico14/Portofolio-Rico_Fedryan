@@ -2126,10 +2126,9 @@ a[href="#experience"],
   }
 }
 
-/* Sejajarkan Back to top dengan SECURITY ENGINEER — mobile */
 @media (max-width: 800px) {
-  .site-footer .back-to-top {
-    position: relative;
-    top: 12px !important;
+  footer .footer-layout > div:last-child {
+    position: relative !important;
+    top: 16px !important;
   }
 }
