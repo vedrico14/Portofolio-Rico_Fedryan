@@ -2134,7 +2134,7 @@ a[href="#experience"],
   footer .footer-layout > div:last-child {
     position: absolute !important;
     right: 0 !important;
-    top: 28px !important;
+    top: 20px !important;
     bottom: auto !important;
     white-space: nowrap !important;
   }
