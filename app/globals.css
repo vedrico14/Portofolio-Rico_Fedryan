@@ -1989,3 +1989,20 @@ a[href="#experience"],
 .hero .eyebrow.light > :first-child {
   justify-self: center;
 }
+
+.site-header .brand-mark.terminal-mark {
+  position: relative;
+  left: -8px !important;
+}
+
+/* Titik hijau juga digeser sedikit ke kiri */
+.hero .eyebrow.light > :first-child {
+  position: relative;
+  left: -8px !important;
+}
+
+/* Geser READY ke kanan agar sejajar dengan STATUS dan nama */
+.hero .eyebrow.light {
+  grid-template-columns: 38px max-content !important;
+  column-gap: 25px !important;
+}
