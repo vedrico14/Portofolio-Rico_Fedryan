@@ -2052,3 +2052,14 @@ a[href="#experience"],
     flex: 0 0 auto;
   }
 }
+
+/* Geser tulisan READY sedikit ke kiri */
+.hero .eyebrow.light {
+  column-gap: 22px !important;
+}
+
+@media (max-width: 800px) {
+  .hero .eyebrow.light {
+    gap: 13px !important;
+  }
+}
