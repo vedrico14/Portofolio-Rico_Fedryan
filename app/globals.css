@@ -1802,37 +1802,71 @@ a[href="#experience"],
   }
 }
 
-.site-header .brand-twinkle {
+.site-header .brand-mark.brand-twinkle {
   position: relative;
-  overflow: hidden;
+  display: block;
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+
+  padding: 0;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  overflow: visible;
 }
 
 .site-header .twinkle-star {
   position: absolute;
+  display: block;
   line-height: 1;
   color: var(--blue);
-  opacity: 0.25;
-  animation: brandTwinkle 1.8s ease-in-out infinite;
+  transform-origin: center;
+  animation: headerTwinkle 1.8s ease-in-out infinite;
 }
 
-.site-header .brand-open-status {
-  display: block;
-  margin-top: 4px;
-  color: var(--mint);
-  font-family: var(--font-geist-mono), monospace;
-  font-size: 11px;
-  line-height: 1.2;
-  letter-spacing: 0.12em;
-  white-space: nowrap;
+.site-header .twinkle-main {
+  top: 50%;
+  left: 50%;
+  font-size: 29px;
+  color: #eaf4ff;
+  animation-delay: 0s;
 }
 
-.site-header .brand-open-status > span {
-  display: block;
-  width: 0;
-  overflow: hidden;
-  border-right: 2px solid var(--mint);
-  white-space: nowrap;
-  animation:
-    brandTyping 4.8s steps(20, end) infinite,
-    brandTypingCursor 700ms step-end infinite;
+.site-header .twinkle-top {
+  top: 6px;
+  right: 5px;
+  font-size: 12px;
+  animation-delay: 0.6s;
+}
+
+.site-header .twinkle-bottom {
+  bottom: 7px;
+  left: 6px;
+  font-size: 9px;
+  animation-delay: 1.2s;
+}
+
+@keyframes headerTwinkle {
+  0%,
+  100% {
+    opacity: 0.25;
+    transform: translate(-50%, -50%) scale(0.65) rotate(0deg);
+    filter: drop-shadow(0 0 0 transparent);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.25) rotate(18deg);
+    filter: drop-shadow(0 0 8px rgba(113, 140, 255, 0.95));
+  }
+}
+
+.site-header .twinkle-top {
+  transform-origin: center;
+}
+
+.site-header .twinkle-bottom {
+  transform-origin: center;
 }
