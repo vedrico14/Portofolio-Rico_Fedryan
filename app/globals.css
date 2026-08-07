@@ -1334,7 +1334,7 @@ summary {
 }
 
 .contact-primary strong {
-  font-size: clamp(14px, 1.5vw, 21px);
+  font-size: clamp(14px, 1.5vw, 18px);
   font-weight: 550;
 }
 
@@ -2215,11 +2215,5 @@ a[href="#experience"],
   .contact-primary strong {
     font-size: 13px !important;
     font-weight: 550 !important;
-  }
-}
-
-@media (min-width: 801px) {
-  .contact-primary strong {
-    font-size: 22px !important;
   }
 }
