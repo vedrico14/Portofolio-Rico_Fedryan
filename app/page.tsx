@@ -3,7 +3,7 @@ const projects = [
     number: "01",
     title: "CyberArk PAM",
     category: "Privileged Access Management",
-    clients: "BAF · IDX · MTI",
+    clients: "Bank BRI · BAF · IDX · MTI",
     description:
       "Supporting enterprise privileged access environments, secure account lifecycle, platform policies, session management, and technical troubleshooting.",
     tags: ["CyberArk", "PAM", "Security Operations"],
@@ -12,7 +12,7 @@ const projects = [
     number: "02",
     title: "HCL BigFix",
     category: "Endpoint & Patch Management",
-    clients: "Allianz Life · SMI · CIMB Niaga Auto Finance",
+    clients: "Allianz Indonesia · SMI · CIMB Niaga Auto Finance",
     description:
       "Delivering technical support for endpoint visibility, patch deployment, reporting health, and platform configuration across enterprise estates.",
     tags: ["BigFix", "Endpoint", "Patch Management"],
@@ -33,7 +33,7 @@ const projects = [
     clients: "Bank CTBC Indonesia",
     description:
       "Enabling vulnerability scanning, findings review, and reporting workflows to improve risk visibility and remediation coordination.",
-    tags: ["Tenable", "Nessus", "Vulnerability"],
+    tags: ["Tenable", "Nessus", "Vulnerability Assessment"],
   },
   {
     number: "05",
