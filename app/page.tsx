@@ -296,7 +296,7 @@ export default function Home() {
         <div className="section-shell stats-bar">
           <div>
             <strong>6+</strong>
-            <span>Years in IT Operations &amp; Security</span>
+            <span>Years in IT Operations and Security</span>
           </div>
           <div>
             <strong>6</strong>
