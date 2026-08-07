@@ -1579,6 +1579,16 @@ footer {
     margin-top: 28px;
   }
 
+  .hero .eyebrow {
+  margin-left: 12px;
+  overflow: visible;
+}
+
+.hero .status-dot {
+  flex: 0 0 auto;
+  overflow: visible;
+}
+
   .hero-layout {
     gap: 56px;
   }
