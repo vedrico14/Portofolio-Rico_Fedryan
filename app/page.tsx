@@ -148,12 +148,20 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Back to top">
-          <span className="brand-mark">MR</span>
+        <a className="brand header-brand" href="#top" aria-label="Back to top">
+          <span className="brand-mark brand-twinkle" aria-hidden="true">  
+            <span className="twinkle-star twinkle-main">✦</span>
+            <span className="twinkle-star twinkle-top">✦</span>
+            <span className="twinkle-star twinkle-bottom">✦</span>
+          </span>
+
           <span className="brand-copy">
             <strong>MUHAMMAD RICO FEDRYAN</strong>
-            <small>Security Engineer</small>
-          </span>
+
+            <small className="brand-open-status" aria-label="Status: Open to Work">
+              <span aria-hidden="true">STATUS: OPEN TO WORK</span>
+            </small>
+           </span>
         </a>
 
         <nav className="desktop-nav" aria-label="Primary navigation">
