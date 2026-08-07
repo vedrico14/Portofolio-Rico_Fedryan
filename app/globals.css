@@ -588,17 +588,11 @@ summary {
 }
 
 .stats-bar span {
-  max-width: 150px;
+  max-width: none;
+  white-space: nowrap;
   color: #849ca7;
-  font-size: 13px;
+  font-size: 20px;
   line-height: 1.5;
-}
-
-@media (min-width: 801px) {
-  .stats-bar span {
-    max-width: none;
-    white-space: nowrap;
-  }
 }
 
 .section {
@@ -2231,5 +2225,18 @@ a[href="#experience"],
   .contact-primary strong {
     font-size: 13px !important;
     font-weight: 550 !important;
+  }
+}
+
+@media (min-width: 801px) {
+  .stats-bar > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .stats-bar span {
+    max-width: none;
+    white-space: nowrap;
   }
 }
